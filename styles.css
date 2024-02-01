@@ -1,0 +1,42 @@
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFEFE;
+    margin: auto;
+    min-height: 100vh;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1rem, 0.3333rem + 2.1333vw, 3rem);
+}
+
+img {
+    cursor: pointer;
+    width: clamp(1rem, 0.3333rem + 2.1333vw, 3rem);
+}
+  
+.game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+}
+  
+.hole {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 7vw;
+    height: 7vw;
+    margin: 1rem;
+}
+
